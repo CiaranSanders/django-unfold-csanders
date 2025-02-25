@@ -16,6 +16,12 @@
   @apply !hidden;
 }
 
+@layer base {
+  a {
+    @apply hover:text-primary-600 dark:hover:text-primary-500;
+  }
+}
+
 @layer utilities {
   .border-spacing-none {
     border-spacing: 0;
